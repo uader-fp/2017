@@ -1,0 +1,19 @@
+New log file opened at Tue Nov 08 02:27:20 ART 2016 by 5592@notebook-peg
+Taking next connection to: 57752
+New client attempting to connect on port: 40536-57752
+  Address = /127.0.1.1:57752
+This client on port 40536 has uuid 0392e3e7-89fa-405d-aeb2-83466614dcaa configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-0392e3e7-89fa-405d-aeb2-83466614dcaa
+Taking next connection to: 57752
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57752
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57752
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 5592@notebook-peg logs at Tue Nov 08 02:36:20 ART 2016, goodbye.

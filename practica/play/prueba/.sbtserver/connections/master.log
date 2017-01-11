@@ -1,0 +1,7 @@
+New log file opened at Wed Jun 17 14:14:34 ART 2015 by 4525@notebook-peg
+Taking next connection to: 55803
+New client attempting to connect on port: 51175-55803
+  Address = /127.0.1.1:55803
+This client on port 51175 has uuid bdebb699-bd94-4223-9094-018cdbcf6572 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-bdebb699-bd94-4223-9094-018cdbcf6572
+Taking next connection to: 55803

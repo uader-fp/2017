@@ -1,0 +1,10 @@
+package recfun
+
+object test {
+  
+  def ordenar(List[Int] milista) : List[Int] = {
+  	milista
+  }
+  
+  
+}

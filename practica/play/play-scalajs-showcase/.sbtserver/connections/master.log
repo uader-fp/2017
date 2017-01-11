@@ -1,0 +1,7 @@
+New log file opened at Wed Jun 17 02:42:16 ART 2015 by 7391@notebook-peg
+Taking next connection to: 56474
+New client attempting to connect on port: 48897-56474
+  Address = /127.0.1.1:56474
+This client on port 48897 has uuid e7ac88d1-4c42-48c4-8e04-3b2a29a31f07 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-e7ac88d1-4c42-48c4-8e04-3b2a29a31f07
+Taking next connection to: 56474

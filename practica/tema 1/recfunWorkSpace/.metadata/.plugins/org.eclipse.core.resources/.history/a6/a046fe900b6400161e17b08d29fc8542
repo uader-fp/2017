@@ -1,0 +1,9 @@
+package recfun
+
+object test {
+                                                  //> Welcome to the Scala worksheet
+  def ordenar(list[Int] milista) : list[Int] {
+  		
+  }
+  
+}

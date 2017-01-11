@@ -1,0 +1,13 @@
+New log file opened at Wed Jun 17 02:00:02 ART 2015 by 2614@notebook-peg
+Taking next connection to: 43383
+New client attempting to connect on port: 37215-43383
+  Address = /127.0.1.1:43383
+This client on port 37215 has uuid ff8c9f06-3898-42ae-989e-73d182478e1c configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-ff8c9f06-3898-42ae-989e-73d182478e1c
+Taking next connection to: 43383
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 2614@notebook-peg logs at Wed Jun 17 02:03:02 ART 2015, goodbye.

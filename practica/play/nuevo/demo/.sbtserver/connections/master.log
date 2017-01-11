@@ -1,0 +1,31 @@
+New log file opened at Wed Jun 17 15:36:43 ART 2015 by 9877@notebook-peg
+Taking next connection to: 55593
+New client attempting to connect on port: 56567-55593
+  Address = /127.0.1.1:55593
+This client on port 56567 has uuid 74f9bab4-a75d-4433-926c-cb160ce99c82 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-74f9bab4-a75d-4433-926c-cb160ce99c82
+Taking next connection to: 55593
+New client attempting to connect on port: 56572-55593
+  Address = /127.0.1.1:55593
+Handshake exception on socket: 56572
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 55593
+New client attempting to connect on port: 56573-55593
+  Address = /127.0.1.1:55593
+This client on port 56573 has uuid 23097d52-4074-4d5a-9345-c166e45abb6b configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-74f9bab4-a75d-4433-926c-cb160ce99c82, play-fork-run-23097d52-4074-4d5a-9345-c166e45abb6b
+Taking next connection to: 55593
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 9877@notebook-peg logs at Wed Jun 17 15:40:45 ART 2015, goodbye.

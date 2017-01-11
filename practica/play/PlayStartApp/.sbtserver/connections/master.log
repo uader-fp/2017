@@ -1,0 +1,16 @@
+New log file opened at Wed Jun 17 03:05:04 ART 2015 by 10229@notebook-peg
+Taking next connection to: 39528
+New client attempting to connect on port: 37966-39528
+  Address = /127.0.1.1:39528
+This client on port 37966 has uuid d2ce1679-a45a-4438-9a4f-ff84818f9bd4 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-d2ce1679-a45a-4438-9a4f-ff84818f9bd4
+Taking next connection to: 39528
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 39528
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 10229@notebook-peg logs at Wed Jun 17 03:11:05 ART 2015, goodbye.

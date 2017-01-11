@@ -1,0 +1,19 @@
+New log file opened at Tue Nov 08 19:11:39 ART 2016 by 4837@notebook-peg
+Taking next connection to: 54565
+New client attempting to connect on port: 55016-54565
+  Address = /127.0.1.1:54565
+This client on port 55016 has uuid e7e63482-c4e9-4235-8ddc-758ba00cb889 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-e7e63482-c4e9-4235-8ddc-758ba00cb889
+Taking next connection to: 54565
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 54565
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 54565
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 4837@notebook-peg logs at Tue Nov 08 19:20:39 ART 2016, goodbye.

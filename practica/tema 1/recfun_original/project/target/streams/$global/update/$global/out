@@ -1,0 +1,142 @@
+[0m[[0minfo[0m] [0mUpdating {file:/home/emanuel/cursos/progfun/tema%201/recfun/project/}default-9b3689...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#default-9b3689;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-9b3689;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-9b3689;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving net.databinder#dispatch-http_2.9.2;0.8.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.databinder#dispatch-http_2.9.2;0.8.8 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-http_2.9.2/0.8.8/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-http_2.9.2/0.8.8/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for net.databinder#dispatch-http_2.9.2;0.8.8[0m
+[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-http_2.9.2/0.8.8/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-http_2.9.2/0.8.8/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for net.databinder#dispatch-http_2.9.2;0.8.8[0m
+[0m[[0mdebug[0m] [0m		tried /home/emanuel/.ivy2/local/net.databinder/dispatch-http_2.9.2/0.8.8/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for net.databinder#dispatch-http_2.9.2;0.8.8[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.spray.cc/net/databinder/dispatch-http_2.9.2/0.8.8/dispatch-http_2.9.2-0.8.8.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.spray.cc/net/databinder/dispatch-http_2.9.2/0.8.8/dispatch-http_2.9.2-0.8.8.pom[0m
+[0m[[0mdebug[0m] [0m	Spray Repository: no ivy file found for net.databinder#dispatch-http_2.9.2;0.8.8[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/net/databinder/dispatch-http_2.9.2/0.8.8/dispatch-http_2.9.2-0.8.8.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for net.databinder#dispatch-http_2.9.2;0.8.8[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/net/databinder/dispatch-http_2.9.2/0.8.8/dispatch-http_2.9.2-0.8.8.pom (0.8.8)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/net/databinder/dispatch-http_2.9.2/0.8.8/dispatch-http_2.9.2-0.8.8.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/databinder/dispatch-http_2.9.2/0.8.8/dispatch-http_2.9.2-0.8.8.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/databinder/dispatch-http_2.9.2/0.8.8/dispatch-http_2.9.2-0.8.8.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/net/databinder/dispatch-http_2.9.2/0.8.8/dispatch-http_2.9.2-0.8.8.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.databinder#dispatch-http_2.9.2;0.8.8!dispatch-http_2.9.2.pom(pom.original) (2757ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-http_2.9.2/0.8.8/jars/dispatch-http_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-http_2.9.2/0.8.8/jars/dispatch-http_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-http_2.9.2/0.8.8/jars/dispatch-http_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-http_2.9.2/0.8.8/jars/dispatch-http_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/emanuel/.ivy2/local/net.databinder/dispatch-http_2.9.2/0.8.8/jars/dispatch-http_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.spray.cc/net/databinder/dispatch-http_2.9.2/0.8.8/dispatch-http_2.9.2-0.8.8.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.spray.cc/net/databinder/dispatch-http_2.9.2/0.8.8/dispatch-http_2.9.2-0.8.8.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/net/databinder/dispatch-http_2.9.2/0.8.8/dispatch-http_2.9.2-0.8.8.jar[0m
+[0m[[0mdebug[0m] [0m	found net.databinder#dispatch-http_2.9.2;0.8.8 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-9b3689;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-9b3689;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->net.databinder#dispatch-core_2.9.2;0.8.8 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving net.databinder#dispatch-core_2.9.2;0.8.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.databinder#dispatch-core_2.9.2;0.8.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-core_2.9.2/0.8.8/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-core_2.9.2/0.8.8/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for net.databinder#dispatch-core_2.9.2;0.8.8[0m
+[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-core_2.9.2/0.8.8/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-core_2.9.2/0.8.8/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for net.databinder#dispatch-core_2.9.2;0.8.8[0m
+[0m[[0mdebug[0m] [0m		tried /home/emanuel/.ivy2/local/net.databinder/dispatch-core_2.9.2/0.8.8/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for net.databinder#dispatch-core_2.9.2;0.8.8[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.spray.cc/net/databinder/dispatch-core_2.9.2/0.8.8/dispatch-core_2.9.2-0.8.8.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.spray.cc/net/databinder/dispatch-core_2.9.2/0.8.8/dispatch-core_2.9.2-0.8.8.pom[0m
+[0m[[0mdebug[0m] [0m	Spray Repository: no ivy file found for net.databinder#dispatch-core_2.9.2;0.8.8[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/net/databinder/dispatch-core_2.9.2/0.8.8/dispatch-core_2.9.2-0.8.8.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for net.databinder#dispatch-core_2.9.2;0.8.8[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/net/databinder/dispatch-core_2.9.2/0.8.8/dispatch-core_2.9.2-0.8.8.pom (0.8.8)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/net/databinder/dispatch-core_2.9.2/0.8.8/dispatch-core_2.9.2-0.8.8.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/databinder/dispatch-core_2.9.2/0.8.8/dispatch-core_2.9.2-0.8.8.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/databinder/dispatch-core_2.9.2/0.8.8/dispatch-core_2.9.2-0.8.8.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/net/databinder/dispatch-core_2.9.2/0.8.8/dispatch-core_2.9.2-0.8.8.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.databinder#dispatch-core_2.9.2;0.8.8!dispatch-core_2.9.2.pom(pom.original) (1503ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-core_2.9.2/0.8.8/jars/dispatch-core_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-core_2.9.2/0.8.8/jars/dispatch-core_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-core_2.9.2/0.8.8/jars/dispatch-core_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-core_2.9.2/0.8.8/jars/dispatch-core_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/emanuel/.ivy2/local/net.databinder/dispatch-core_2.9.2/0.8.8/jars/dispatch-core_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.spray.cc/net/databinder/dispatch-core_2.9.2/0.8.8/dispatch-core_2.9.2-0.8.8.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.spray.cc/net/databinder/dispatch-core_2.9.2/0.8.8/dispatch-core_2.9.2-0.8.8.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/net/databinder/dispatch-core_2.9.2/0.8.8/dispatch-core_2.9.2-0.8.8.jar[0m
+[0m[[0mdebug[0m] [0m	found net.databinder#dispatch-core_2.9.2;0.8.8 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->net.databinder#dispatch-core_2.9.2;0.8.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-core_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-core_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-core_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-core_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-core_2.9.2;0.8.8->org.apache.httpcomponents#httpclient;4.1.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.1.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpclient/4.1.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpclient/4.1.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache.httpcomponents#httpclient;4.1.3[0m
+[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.1.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.1.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#httpclient;4.1.3[0m
+[0m[[0mdebug[0m] [0m		tried /home/emanuel/.ivy2/local/org.apache.httpcomponents/httpclient/4.1.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#httpclient;4.1.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.spray.cc/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.spray.cc/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom[0m
+[0m[[0mdebug[0m] [0m	Spray Repository: no ivy file found for org.apache.httpcomponents#httpclient;4.1.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.apache.httpcomponents#httpclient;4.1.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom (4.1.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.1.3!httpclient.pom(pom.original) (1186ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcomponents-client;4.1.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcomponents-client;4.1.3 {}[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache.httpcomponents#httpcomponents-client;4.1.3[0m
+[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#httpcomponents-client;4.1.3[0m
+[0m[[0mdebug[0m] [0m		tried /home/emanuel/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#httpcomponents-client;4.1.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.spray.cc/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.spray.cc/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom[0m
+[0m[[0mdebug[0m] [0m	Spray Repository: no ivy file found for org.apache.httpcomponents#httpcomponents-client;4.1.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.apache.httpcomponents#httpcomponents-client;4.1.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom (4.1.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-client;4.1.3!httpcomponents-client.pom(pom.original) (1509ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#project;5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#project;5 {}[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/project/5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/project/5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache.httpcomponents#project;5[0m
+[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/project/5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/project/5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#project;5[0m
+[0m[[0mdebug[0m] [0m		tried /home/emanuel/.ivy2/local/org.apache.httpcomponents/project/5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#project;5[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.spray.cc/org/apache/httpcomponents/project/5/project-5.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.spray.cc/org/apache/httpcomponents/project/5/project-5.pom[0m
+[0m[[0mdebug[0m] [0m	Spray Repository: no ivy file found for org.apache.httpcomponents#project;5[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/project/5/project-5.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.apache.httpcomponents#project;5[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/httpcomponents/project/5/project-5.pom (5)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/project/5/project-5.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/project/5/project-5.pom[0m

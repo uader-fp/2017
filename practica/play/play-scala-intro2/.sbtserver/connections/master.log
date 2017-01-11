@@ -1,0 +1,64 @@
+New log file opened at Tue Nov 08 02:56:24 ART 2016 by 6574@notebook-peg
+Taking next connection to: 53436
+New client attempting to connect on port: 56240-53436
+  Address = /127.0.1.1:53436
+This client on port 56240 has uuid 02d20bee-99ee-49f3-ab05-442ddc52db6e configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-02d20bee-99ee-49f3-ab05-442ddc52db6e
+Taking next connection to: 53436
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53436
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53436
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53436
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53436
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53436
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53436
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53436
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53436
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53436
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53436
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53436
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53436
+New client attempting to connect on port: 56283-53436
+  Address = /127.0.1.1:53436
+Handshake exception on socket: 56283
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 53436
+New client attempting to connect on port: 56284-53436
+  Address = /127.0.1.1:53436
+This client on port 56284 has uuid 7ac3577f-4327-4919-aae5-e0b339036782 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-02d20bee-99ee-49f3-ab05-442ddc52db6e, play-fork-run-7ac3577f-4327-4919-aae5-e0b339036782
+Taking next connection to: 53436
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53436
